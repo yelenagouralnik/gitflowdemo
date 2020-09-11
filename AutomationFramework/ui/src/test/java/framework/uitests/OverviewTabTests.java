@@ -27,6 +27,7 @@ public class OverviewTabTests extends BaseTestClass {
     void userNameIsCorrectOnOverviewTab() {
         // Act
         String actualUserName = driver.findElement(By.className("p-nickname")).getText();
+        System.out.println(actualUserName);
         // Assert
         assertEquals(user, actualUserName);
     }
