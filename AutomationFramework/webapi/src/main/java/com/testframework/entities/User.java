@@ -19,6 +19,7 @@ public class User {
     private String received_events_url;
     private String type;
     private Boolean site_admin;
+    private String email;
 
     public String getLogin() {
         return login;
@@ -58,6 +59,9 @@ public class User {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getHtml_url() {
