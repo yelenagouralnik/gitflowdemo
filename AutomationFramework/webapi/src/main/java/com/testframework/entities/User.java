@@ -64,6 +64,9 @@ public class User {
         this.email = email;
     }
 
+    public void getEmail() {
+        return email;
+    }
     public String getHtml_url() {
         return html_url;
     }
