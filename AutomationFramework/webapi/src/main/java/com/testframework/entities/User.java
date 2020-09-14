@@ -29,9 +29,6 @@ public class User {
         this.login = login;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
     public Integer getId() {
         return id;
     }
@@ -63,7 +60,13 @@ public class User {
     public void setUrl(String url) {
         this.url = url;
     }
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
+    public void getEmail() {
+        return email;
+    }
     public String getHtml_url() {
         return html_url;
     }

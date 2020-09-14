@@ -78,7 +78,11 @@ public class MyFirstUITest {
         driver.get("https://github.com/" + "andrejs-ps/" + "?tab=repositories");
 
         List<WebElement> repos = driver.findElements(By.xpath("//div[@id='user-repositories-list']//li"));
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> hf1
         // Assert
         Assertions.assertEquals(6, repos.size());
         driver.close();

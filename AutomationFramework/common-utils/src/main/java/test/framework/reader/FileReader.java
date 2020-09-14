@@ -14,7 +14,10 @@ public class FileReader {
             return Files.lines(
                     Paths.get("src/main/resources/" + file))
                     .collect(joining("\n" ));
+<<<<<<< HEAD
                     System.out.println(file);
+=======
+>>>>>>> hf1
         } catch (IOException e) {
             e.printStackTrace();
         }
